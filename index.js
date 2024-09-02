@@ -1,6 +1,5 @@
 const express = require("express");
 const port = 8001;
-//const {generateNewShortUrl,redirectToNewURL,getAnalytics} = require("./routes/url")
 const urlRoute = require("./routes/url")
 const connectToMongoDB  = require("./connection")
 const app = express();
